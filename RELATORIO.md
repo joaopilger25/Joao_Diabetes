@@ -29,7 +29,11 @@ R: Foi analisado que os grupos mais velhos sempre têm mais casos de diabetes do
 
 Modelos treinados e comparação de métricas:
 
-Foi treinado um modelo de regressão logística, um modelo de árvore de decisão, e um modelo Random Forest. A acurácia dos modelos ficou acima de 0.8, e foi observado que a classe 0 tem notas altas de precisão e recall, ficando com um f1 de 0.9 ou acima nos três modelos. No entanto, o f1 da classe 1 não superou 0.44 em nenhum modelo. Isso mostra que os modelos não são bons em prever casos de diabetes baseado nos dados do dataset. Pode-se concluir que boa parte das variáveis de estilo de vida não são boas para diagnosticar um caso de diabetes, apesar das relações encontradas.
+Foi treinado um modelo de regressão logística, um modelo de árvore de decisão, e um modelo Random Forest. A acurácia dos modelos ficou acima de 0.8, e foi observado que a classe 0 tem notas altas de precisão e recall, ficando com um f1 de 0.9 ou acima nos três modelos. No entanto, o f1 da classe 1 não superou 0.44 em nenhum modelo. Isso mostra que os modelos não são bons em prever casos de diabetes baseado nos dados do dataset. Pode-se concluir que boa parte das variáveis de estilo de vida não são boas para diagnosticar um caso de diabetes usando esses modelos.
 
 
+Análise dos clusters:
+Foi utilizado o método do cotovelo para saber o número de clusters a serem utilizados, que são 4. os clusters 2 e 3 são os que têm mais diabéticos. As variáveis que também são as mais altas nesses dois em específico, são: pressão alta, colesterol, IMC, fumante (que foi inconclusivo anteriormente), AVC, sexo e idade. enquanto as menores são vegetais, frutas, atividade física, educação e renda. Com a análise dos clusters, pode-se concluir que as variáveis de estilo de vida têm relação com a diabetes.
 
+conclusões e limitações:
+Os algoritmos de identificação de diabetes não são precisos o suficiente para serem utilizados na prática, porém o objetivo do estudo era saber se tem relação entre o estilo de vida e a diabetes, e com a clusterização (K-means), foram identificadas relações entre muitas variáveis e casos positivos ou negativos de diabetes.
