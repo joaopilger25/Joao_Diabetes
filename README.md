@@ -14,4 +14,4 @@ Diabetes é uma doença que afeta muitos indivíduos ao redor do mundo, e há a 
 
 Instruções de execução:
 
-Acessar o notebook no Databricks Free Edition, clicar em "Run All".
+Criar um notebook no Databricks Free Edition, File - Import, URL: https://raw.githubusercontent.com/joaopilger25/Joao_Diabetes/refs/heads/main/Sistematizacao%20CD2.ipynb, importar, clicar em "Run All".
